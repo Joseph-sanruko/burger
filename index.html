@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Queen - Home</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style></style>
+  
+</head>
+<body>
+    <header>    
+        <nav>
+            <div class="logo">
+                <img src="Burgerqueen.webp"></div>
+            
+
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+<ul id="nav-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="order.html">Menu</a></li>
+    <li><a href="About us.html">About Us</a></li>
+</ul>
+        </nav>
+        
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>Welcome to Burger Queen</h1>
+            <p>The juiciest burgers in town.</p>
+            <a href="order.html" class="cta">Order Now</a>
+        </div>
+    </section>
+   <script>
+    function toggleMenu() {
+        const menu = document.getElementById('nav-menu');
+        menu.classList.toggle('show');
+    }
+</script>
+<footer>
+    <p>Welcome to Philipines,@Burger Queen.com</p>
+</footer>
+    
+</body>
+</html>
